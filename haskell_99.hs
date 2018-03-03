@@ -26,7 +26,7 @@ problem_4 (x:xs) = 1 + problem_4 xs
 
 problem_5 :: [a] -> [a]
 problem_5 [] = []
-problem_5 (x:xs) = problem_5 xs++[x]
+problem_5 (x:xs) = problem_5 xs ++ [x]
 
 problem_6 :: Eq a => [a] -> Bool
 -- problem_6 x = x == problem_5 x -- thats another to do this
